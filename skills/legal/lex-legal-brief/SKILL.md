@@ -53,6 +53,32 @@ or filing in PJe through the Windows Lex app.
 5. Produce a drafting plan before writing a final piece.
 6. Mark every unverified legal authority or deadline as needing verification.
 
+## Legal Accuracy Guardrails
+
+- Do not add greetings or decorative text when the user asks for direct output.
+- Do not cite case numbers, docket numbers, chambers, reporters, or precedent
+  dates unless the source has been verified in the current task.
+- If a legal rule is likely but not verified, say "verificar base legal" instead
+  of stating it as final authority.
+- For calculations, show the arithmetic and flag assumptions.
+- Prefer "pedido a avaliar" when a claim depends on facts not provided.
+
+## Brazilian Labor Notes
+
+When handling Brazilian labor claims:
+
+- Hours from 8h to 18h with 1h interval = 9 working hours per day.
+- Monday through Saturday at 9 working hours/day = 54 working hours/week.
+- The ordinary weekly limit is 44 hours, so this fact pattern indicates about
+  10 overtime hours/week before checking collective rules, compensation, or
+  banco de horas. Do not call it only 1 overtime hour/week.
+- Timekeeping duty under CLT art. 74, §2 currently applies to establishments
+  with more than 20 employees. Older "more than 10 employees" references need
+  verification before use.
+- For interval claims, ask whether the stated interval was actually enjoyed.
+- For moral damages based only on lack of CTPS registration, label it as a
+  strategic claim to evaluate because courts may reject automatic moral damage.
+
 ## Output Shape
 
 Prefer this structure:
